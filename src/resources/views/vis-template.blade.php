@@ -1,4 +1,6 @@
-<div id="{!! $element !!}" width="{!! $size['width'] !!}" height="{!! $size['height'] !!}">
+<div id="{!! $element !!}" style="width:{!! $size['width'] !!};height:{!! $size['height'] !!}">
+
+<!--width="{!! $size['width'] !!}" height="{!! $size['height'] !!}">-->
 <script type="text/javascript">
     // create an array with nodes
     var nodes = new vis.DataSet({!!json_encode($datasets['nodes'], JSON_PRETTY_PRINT)!!});
