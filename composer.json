@@ -1,7 +1,7 @@
 {
     "name": "wladiz2001/visjs",
     "description": "Visjs 4 Integration for Laravel > 5.5",
-    "license": "BSD",
+    "license": "MIT",
     "authors": [
         {
             "name": "Wladimir Castro",
