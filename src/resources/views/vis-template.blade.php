@@ -1,4 +1,4 @@
-<div id="{!! $element !!}" style="width:{!! $size['width'] !!};height:{!! $size['height'] !!}">
+<div id="{!! $element !!}" style="width:{!! $size['width'] !!};height:{!! $size['height'] !!};">
 
 <!--width="{!! $size['width'] !!}" height="{!! $size['height'] !!}">-->
 <script type="text/javascript">
