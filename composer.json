@@ -1,0 +1,42 @@
+{
+    "name": "wladiz2001/visjs",
+    "description": "Visjs 4 Integration for Laravel > 5.5",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Wladimir Castro",
+            "email": "wladimir.castro@outlook.com"
+        }
+    ],
+    "homepage": "https://github.com/wladiz2001/visjs",
+    "keywords": ["Laravel", "Visjs"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wladiz2001\\Visjs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wladiz2001\\Visjs\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wladiz2001\\Visjs\\VisjsServiceProvider"
+            ],
+            "aliases": {
+                "Visjs": "Wladiz2001\\Visjs\\Facades\\Visjs"
+            }
+        }
+    }
+}
