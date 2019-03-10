@@ -2,6 +2,7 @@
 
 /*
  * This file is inspired by Builder from Laravel ChartJS - Brian Faust
+ * And the work of pjeutr
  */
 
 namespace Wladiz2001\Visjs;
